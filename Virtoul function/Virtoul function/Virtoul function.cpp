@@ -7,7 +7,7 @@ using namespace std;
 class A
 {
 public :
-	void print()
+	virtual void print()
 	{
 		cout << "This is A." << endl;
 	}
