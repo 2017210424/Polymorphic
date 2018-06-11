@@ -22,12 +22,11 @@ public:
 };
 int main()
 {
-	A *s;
-	B *p;
-	s = new A;
-	p = new B;
+	A a;
+	B b;
+	A *s = &a;
+	A *p = &b;
 	s->print();
 	p->print();
-	delete p;
 	return 0;
 }
